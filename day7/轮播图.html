@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>轮播图</title>
+
+
+<link href="css/public.css" rel="stylesheet" type="text/css">
+</head>
+<style>
+
+.box{margin:100px auto;width:500px;height:350px;border:1px solid;position:relative;}
+.box .tu{width:500px;height:350px;overflow:hidden;}
+.box .tu img{display:block;width:100%;height:100%;}
+.box  p{position:absolute;right:10px;bottom:10px;height:50px;display:inline-block;}
+.box .tu p a{color:#0f0;display:block;width:50px;height:50px;opacity:.5;margin:0 5px 0;background:#00f;}
+
+</style>
+<body>
+<div class="box">
+	<div class="tu">
+    	<img id="a"  src="images/1.jpg" />
+        <img id="b"  src="images/4.jpg" />
+        <img id="c"  src="images/2.jpg" />
+        <img id="d"  src="images/3.png" />    
+    </div>
+	<p>
+    	<a href="#a">1</a>
+		<a href="#b">2</a>
+    	<a href="#c">3</a>
+    	<a href="#d">4</a>
+    </p>
+</div>
+
+
+
+</body>
+</html>

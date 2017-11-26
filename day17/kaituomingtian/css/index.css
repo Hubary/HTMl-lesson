@@ -1,0 +1,146 @@
+@charset "utf-8";  
+
+/* CSS Document */
+
+.margin{
+	width: 1200px;
+	margin: 0 auto;
+}
+.tel{
+	float: left;
+	padding-top:15px ;
+}
+header .margin .tel a{
+	display: inline-block;	
+}
+
+header .margin .tel p{
+	display: inline-block;
+	color: #898989;
+	font: 12px/20px "";
+}
+
+header ul{
+	float: right;	
+}
+header ul li{
+	font: 14px/85px "微软雅黑";
+	padding: 0 10px;
+	display: inline-block;
+}
+#bg{
+	background: url(../img/bgcolor.png) repeat-x;
+}
+#bg dl{
+	padding: 45px 0 70px;
+	color: #fff;
+}
+#bg dl dt{
+	font: 40px/108px "";
+}
+#bg dl dd{
+	font: 20px/33px "";
+}
+
+#main .left{
+	float: left;
+	width: 223px;
+	padding-top: 34px;
+}
+#main .left ul{
+	border: 5px solid #e3e3e3;
+	padding: 3px;
+	width: 171px;	
+}
+#main .left ul li{	
+	font: 12px/40px "";
+	color: #404040;
+	border-bottom:1px solid #f2f2f2;
+	padding-left: 18px;
+}
+#main .left .te{
+	background: #0579cb;
+	font-size: 18px;
+	border: none;
+	color: #FFFFFF;
+}
+#main .right{
+	float: right;
+	width: 977px;
+}
+article{
+	padding:34px 0 20px ;
+}
+article p:nth-child(1){
+	display: block;
+	font: 24px/27px "微软雅黑";
+	border-left:4px solid #0579CB;
+}
+article span:nth-child(2){
+	display: block;
+	font-size:20px ;
+	margin: 8px 0 16px 0;
+}
+article .part1{
+	height: 350px;
+	width: 100%;
+	border-bottom: 1px solid #e5e5e5;
+	border-top: 1px solid #e5e5e5;
+	padding-top:32px;
+}
+article .part1 img{
+	float: right;
+}
+article .part1 p{
+	font: 14px/25px "微软雅黑";
+	width: 590px;
+	text-indent: 2em;
+}
+.part2{
+	width: 100%;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 31px 0 40px 0;
+}
+
+.part2  .img img{
+	float: left;
+	display: block;
+	width: 292px;
+}
+.part2 .img .imgin{
+	width:292px;
+} 
+.part2 .img .imgin span:nth-child(1){
+	font: 52px/87px "";
+	color: white;	
+}
+.part2 .img .imgin p{
+	display: inline-block;
+	height: 87px;
+}
+.part2 .img .imgin p span:nth-child(1){
+	font: 28px/58px "";
+}
+.part2 .img .imgin p span:nth-child(2){
+	font: 12px/12px "";
+}
+.part2 dl{
+	float: right;
+	width: 680px;
+}
+.part2 dl dt{
+	font:700 18px/40px "";
+}
+.part2 dl dd{
+	font: 12px/24px "";
+}
+
+
+
+
+
+
+
+
+
+

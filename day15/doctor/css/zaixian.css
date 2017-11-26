@@ -1,0 +1,114 @@
+@charset "utf-8";  
+
+/* CSS Document */
+
+html {
+	font-size:calc(100vw/10.8);
+}
+
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 1.32rem;
+	background: #098fe4;
+	text-align: center;
+	font: .52rem/1.32rem "";
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	
+}
+header a{
+	position: absolute;
+	left: .25rem;
+	top: .0;
+}
+header a img{
+	width: .45rem;
+	height: .78rem;
+}
+/*表格式表单*/
+section{
+	padding-top: 1.79rem;
+	/*padding-left: .38rem;*/
+	font: .36rem/1.06rem "";
+	color: #9c9c9c;
+}
+section form fieldset{
+	border: .02rem solid #00D3BC;
+	border-radius: .1rem;
+	width: 8.85rem;
+	
+	padding: 0 .55rem;
+	margin: 0.3rem auto 0.3rem;	
+}
+section form input{
+	display: inline-block;
+	border: 0;
+	font: .36rem/1.06rem "";
+	color: #9c9c9c;
+}
+section select{
+	height: .8rem;
+	width: 3.82rem;
+	text-align: center;
+	font: .36rem/1.06rem "";
+	color: #9c9c9c;
+}
+section textarea{
+	font: .36rem/1.06rem "";
+	width: 8.10rem;
+	height: 2.88rem;
+	vertical-align: top;
+	margin-top: .35rem;
+	border: .02rem solid #dcdedd;
+	border-radius: .1rem;
+}
+section div{
+	margin-left: .38rem;
+}
+#scfj{
+	display: none;
+}
+section div label{
+	display: inline-block;
+	width: 1.6rem;
+	height: 1.6rem;
+	background: url(../img/t2.png) no-repeat center;
+	background-size: .74rem .74rem;
+	border: .02rem solid #DCDEDD;
+	vertical-align: top;
+	margin-top: .35rem;
+	border-radius:.2rem ;
+	
+}
+section .but{
+	width: 10rem;
+	display: block;
+	border-radius:.1rem ;
+	border: 0;
+	background: #098FE4;
+	color: #FFFFFF;
+	margin-top: 1.21rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

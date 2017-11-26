@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+ul{
+	width: 200px;
+	height:100px;
+	margin:300px auto;	
+	position: relative;
+	box-shadow: 0 0 5px #666666;
+	transform-style: preserve-3d;
+	transition:5s all;
+
+}
+li{
+	width: 200px;
+	height:100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+li.top{
+	background: #99f
+}
+li.bottom{
+	background: #00f;
+	transform:translateY(100px) rotateX(90deg);
+	opacity: .5;
+		
+}
+ul:hover li.top{	
+	transform:rotateX(270deg);
+	transform-origin:top ;
+}
+ul:hover li.bottom{
+	transform:translateY(50px) rotateX(90deg);
+	opacity: .5;
+		
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

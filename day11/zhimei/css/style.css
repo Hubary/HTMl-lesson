@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+.layout{width:950px;margin:0 auto;}
+
+#top{height:35px;background:url(../images/t1.png) repeat-x;}
+#top img{float:right;margin:10px 6px 0 0;}
+
+
+#nav{height:100px;}
+#nav img{float:left;padding:42px 0 0 10px;}
+#nav ul{float:left;height:44px;margin:32px 0 0 91px;}
+#nav ul li{float:left;width:100px;text-align:center;}
+#nav ul li a{width:80px;display:block;font:14px/44px "";background:url(../images/t2.png) no-repeat right;}
+#nav ul li a.last{background:none;}
+#nav ul li a:hover{color:#000;border-bottom:3px solid #000;}
+
+#banner .layout{width:1222px;}
+
+#main{}
+#main .sheji{padding:45px 0 70px;}
+#main .sheji li{float:left;}
+#main .sheji li img{display:block;margin:0 46px 0 36px;}
+
+.exhi{text-align:center;}
+.exhi h3{background:#2d3237;font:20px/32px "";color:#F00;height:32px;}
+.exhi p{font:14px/21px "";background:url(../images/anli.png) repeat-x top;height:57px;}
+.exhi p{background:#FFF;padding:0 8px;}
+
+.exhi h3 span{color:#FFF;}
+
+#main .zhanshi{height:300px;overflow:hidden;margin-bottom:57px;}
+#main .zhanshi ul{width:110%;}
+
+#main .zhanshi ul li{float:left;width:172px;margin-right:23px;}
+
+#main .zhanshi ul li .disign{height:70px;background:#2d3237;padding:0 10px;}
+#main .zhanshi ul li .te{background:#ff0000;}
+#main .zhanshi ul li .disign p{display:inline-block;vertical-align:center;}
+
+#main .zhanshi ul li .disign p span{display:block;}
+#main .zhanshi ul li .disign p b{display:block;}
+
+
+#main .about{text-align:center;font:14px/27px "";margin:7px 0 95px 0;}
+#main .about h3{font:18px/34px "";}
+#main .about h3 span{font-weight:700;}
+
+#main .service{text-align:center;font:12px/20px "";margin:0 0 130px;}
+
+
+
+
+
+
+
+
+#footer{background:#eaeaea;border-top:1px solid #b4b4b4;height:118px;}
+#footer .ulli{width:270px;margin:0 auto;font:12px/22px "";text-align:center;}
+#footer .ulli ul{margin-top:25px;text-align:center;}
+#footer .ulli ul li{display:inline-block;color:#000;}
+#footer .ulli ul li span{margin:0 13px;}
+#footer .ulli ul li a{color:#000;}

@@ -1,0 +1,190 @@
+@charset "utf-8";
+
+/* CSS Document */
+body {
+	display: flex;
+	flex-direction:column ;
+	justify-content: center;
+}
+#tou * {
+	position: absolute;
+}
+
+.c {
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+#tou {
+	width: 308px;
+	height: 300px;
+	border: 2px solid #000;
+	border-radius: 46%;
+	margin: 20px auto 0 auto;
+	background: #0ab7e2;
+	position: relative;
+}
+
+.lian {
+	width: 264px;
+	height: 206px;
+	border: 2px solid #000;
+	border-radius: 50%;
+	left: 0;
+	bottom: 5px;
+	right: 0;
+	margin: auto;
+	background: #fff;
+}
+
+.yan-l {
+	width: 72px;
+	height: 84px;
+	border: 2px solid #000;
+	background: #fff;
+	border-radius: 40%;
+	top: -30px;
+	right: 50%;
+	margin-right: -1px;
+}
+
+.yan-l i {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: #333;
+	right: 11px;
+	bottom: 15px;
+}
+
+.yan-r {
+	width: 72px;
+	height: 84px;
+	border: 2px solid #000;
+	background: #fff;
+	border-radius: 40%;
+	top: -30px;
+	left: 50%;
+	margin-left: -1px;
+}
+
+.yan-r i {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: #333;
+	left: 11px;
+	bottom: 15px;
+	transition: .6s;
+}
+
+.yan-r:hover i {
+	left: 48px;
+}
+
+.bi {
+	width: 32px;
+	height: 32px;
+	border: 2px solid #000;
+	border-radius: 50%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 44px;
+	background: radial-gradient(circle at 66% 34%, #fff 0%, #c93e03 30%);
+}
+
+.zui {
+	width: 170px;
+	height: 72px;
+	background: #333;
+	border-radius: 50%;
+	bottom: 24px;
+}
+
+.zhao {
+	width: 178px;
+	height: 78px;
+	background: #fff;
+	border-radius: 50%;
+	bottom: 28px;
+}
+
+.zhong {
+	width: 3px;
+	height: 100px;
+	background: #333;
+	top: 78px;
+}
+
+.lian p {
+	width: 60px;
+	height: 2px;
+	background: #333;
+	top: 116px;
+}
+
+.lian p.l {
+	right: 50%;
+	transform-origin: right;
+}
+
+.lian p.r {
+	left: 50%;
+	transform-origin: left;
+}
+
+.lian p.t1 {
+	top: 106px;
+}
+
+.lian p.t3 {
+	top: 126px;
+}
+
+.lian p.z1 {
+	transform: rotate(12deg);
+}
+
+.lian p.z3 {
+	transform: rotate(-12deg);
+}
+.lian p.b{
+	height: 20px;
+	width: 320px;
+	border: 2px solid #000;
+}
+
+#bozi{
+	width: 230px;
+	height: 30px;
+	border: 2px solid #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0 auto;}
+li{list-style:none;}
+a{text-decoration:none;}
+
+
+.layout{width:1000px;margin:0 auto;}
+
+nav{height:62px;background:#232323;}
+#logo{width:1000px;}
+#logo img{float:left;}
+#logo ul{float:right;}
+#logo ul li{float:left;width:86px;height:62px;text-align:center;font:600 14px/62px "";background:url(../images/ti.png) no-repeat right;}
+#logo ul li.lot{width:52px;}
+#logo ul li a{color:white;}
+#logo ul li:hover{background:#f15a23;}
+
+#banner{height:267px;background:url(../images/banner.png) no-repeat center;}
+
+
+#main{height:980px;}
+#main .title{height:44px;font:12px/44px "";}
+
+#main .cont{height:895px;}
+
+#main .cont-zuo{float:left;height:895px;width:225px;background:url(../images/l-bg.png) repeat-y left;}
+
+#main .cont-zuo ul li{text-align:center;border-bottom:1px solid #d4d4d4;margin:0 10px;}
+#main .cont-zuo ul .te{height:80px;text-align:center;margin-top:20px;}
+#main .cont-zuo ul .te h3{font:24px/34px "";}
+#main .cont-zuo ul .te span{font-size:12px;color:#b7b7b7;}
+#main .cont-zuo ul .te2 a{display:block;font:700 16px/54px "";}
+#main .cont-zuo ul .te2 a:hover{background:#f15a23;color:#FFF;}
+
+
+#main .cont-you{float:right;width:731px;height:100%;margin-left:41px; border:1px solid #999;}
+
+#main .cont-you p{display:inline-block;height:44px;border-bottom:1px dashed #f9eeed;width:100%;}
+#main .cont-you p img{margin:0 10px;}
+#main .cont-you p span{font:16px/44px "";margin:0 10px;border-bottom:3px solid #f15a23;}
+
+#main .cont-you img.position{position:relative;left:62px;top:18px;}
+
+
+
+
+
+
+
+
+
+
+
+
+#l{width:1000px;height:214px;}
+
+#l .ll{width:494px;height:214px;float:left;}
+#l .ll li{float:left;font:16px/24px "";width:90px;color:#999999;} 
+#l ul li h4{font-size:16px;color:white;}
+#l .ll ul{padding:40px 0 40px 40px;}
+
+#l .lc{border-left:1px solid #373737;width:306px;height:214px;float:left;background:url(../images/map.png) no-repeat 40px 28px;}
+#l .lr{border-left:1px solid #373737;width:194px;height:194px;float:left;text-align:center;color:white;font-size:14px;color:#464445;padding:10px 3px 10px 0px;}
+
+footer{height:214px;background:#222222;}
+
+#footer{height:45px;background:#101010;text-align:center;line-height:45px;color:#999999;}
+
+
+

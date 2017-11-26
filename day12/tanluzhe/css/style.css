@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.layout{width:960px;margin:0 auto;}
+
+
+header{height:94px;background:#e50011;}
+header  img{float:left;}
+header .search{float:left;height:30px;}
+header .search .input{width:130px;height:30px;border:1px solid #CCC;} 
+header .search .txt{float:left;height:100%;border:0;font:12px/30px "";background:none;}
+header .search .sub{float:right;width:30px;height:30px;background:none url(../images/search.png) no-repeat center;}
+
+
+header .search-r{float:right;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

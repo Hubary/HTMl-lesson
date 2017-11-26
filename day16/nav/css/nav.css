@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: url(../img/bg.jpg) no-repeat center;
+	background-size:cover ;
+	background-position:50% 50% ;
+}
+
+
+
+
+
+nav dl dt{
+	
+	display:inline-block;
+}
+
+
+
+

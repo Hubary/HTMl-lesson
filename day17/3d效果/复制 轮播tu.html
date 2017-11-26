@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>3d关键帧动画</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<style>
+			div {
+				width: 640px;
+				height: 120px;
+				box-shadow: 0 0 5px #9999FF;
+				margin: 100px auto;
+				overflow: hidden;
+			}
+			
+			div ul {
+				width: 300%;
+				animation: name 10s linear infinite;
+			}
+			
+			div ul li {
+				float: left;
+			}
+			
+			div ul li p{
+				font: 48px/120px "微软雅黑";
+				text-align: center;
+				width: 160px;
+				height: 120px;
+			}
+			div ul li.li1 p{
+				background: #0000FF;
+			}
+			div ul li.li2 p{
+				background: #666666;
+			}
+			div ul li.li3 p{
+				background: #9999FF;
+			}
+			div ul li.li4 p{
+				background: #99FF99;
+			}
+			div ul li:nth-child(5) p{
+				background: #FF0000;
+			}
+			div ul li:nth-child(6) p{
+				background: #FF7700;
+			}
+			div ul li:nth-child(7) p{
+				background: #FF9999;
+			}
+			div ul li:nth-child(8) p{
+				background: #0dd;
+			}
+			
+			//body{animation:body 5s, 100ms;}
+			/*@keyframes body{
+				0%{background: #0000FF;}
+				25%{background: #99FF99;}
+				50%{background: #FF9999;}
+				75%{background: #FF7700;}
+				100%{background: #0000FF;}
+			}	*/
+			
+			@keyframes name {
+				0% {margin-left: 0;}
+				100% {margin-left: -200%;}
+				/*左移动距离是:非重复图片张数除以视窗张数所得百分比*/
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<div>
+			<ul>
+				<li class="li1"><p>1</p></li>
+				<li class="li2"><p>2</p></li>
+				<li class="li3"><p>3</p></li>
+				<li class="li4"><p>4</p></li>
+				<li><p>5</p></li>
+				<li><p>6</p></li>
+				<li><p>7</p></li>
+				<li><p>8</p></li>
+				<li class="li1"><p>1</p></li>
+				<li class="li2"><p>2</p></li>
+				<li class="li3"><p>3</p></li>
+				<li class="li4"><p>4</p></li>
+				<!--后接重复图片张数=视窗张数-->		
+			</ul>
+
+		</div>
+
+	</body>
+
+</html>

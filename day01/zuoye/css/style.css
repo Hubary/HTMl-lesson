@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+div{width:1126;}
+#header{width:1126;height:142px;background:green;margin:0 auto;}
+#nav{width:1126;height:50px;background:purple;margin:0 auto;}
+#banner{width:1126;height:400px;background:red;margin:0 auto;}
+#main{width:1126;height:50px;background:pink;margin:0 auto;}
+#content{width:1126;height:540px;background:gray;margin:0 auto;}
+#chanping{width:1126;height:350px;background:yellow;margin:0 auto;}
+#movie{width:1126;height:470px;background:white;margin:0 auto;}
+#bottom{width:1126;height:140px;background:black;margin:0 auto;}

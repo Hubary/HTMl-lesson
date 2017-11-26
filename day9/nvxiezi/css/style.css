@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+.margin{width:945px;margin:0 auto;}
+
+body{background:url(../images/boss.png) repeat-x;height:1259px;font-size:12px;}
+
+#top{height:84px;width:945px;}
+#top p{display:inline-block;float:right;font:12px/43px "";color:#555555;}
+#top p span{color:#c4b4c4;margin:0 12px;}
+#top img{float:left;padding:30px 0 20px 9px;}
+
+
+
+#nav{height:41px;}
+#nav ul li{font:14px/41px "";color:#FFF;float:left;text-align:center;width:157px;height:41px;}
+
+#img{margin-top:13px;}
+
+#ban{height:190px;margin-top:10px;}
+#ban h3{display:inline-block;width:100%;font:14px/30px "";color:#ce2027;}
+
+#ban .ban-l{float:left;width:275px;height:190px;}
+#ban .ban-l ul li{font:12px/28px "";height:30px;width:275px;border-bottom:1px dotted #CCCCCC;}
+#ban .ban-l h3 img{margin-left:170px;}
+
+#ban .ban-c{padding:0 13px;line-height:22px;text-indent:2em;float:left;width:416px;height:190px;}
+#ban .ban-c p img{float:left;}
+#ban .ban-c h3 img{margin-left:260px;}
+
+#ban .ban-r{float:left;width:220px;height:190px;}
+
+#shop{height:275px;}
+#shop h3 img{margin-left:260px;}
+#shop ul li{float:left;}
+
+
+#footer{height:242px;}
+
+#footer ul li{height:32px;font:12px/32px "";width:305px;border-bottom:1px dotted #CCCCCC;}
+ul li span{float:right;}
+#footer .footer-l{float:left;width:305px;}
+
+
+#footer .footer-c{float:left;width:305px;padding:0 15px;}
+#footer .footer-r{float:left;width:305px;}
+
+#bottom {position:relative;}
+#bottom img{position:absolute;left:20px;top:20px;}
+#bottom p span{color:#c4b4c4;margin:0 12px;}
+#bottom p{display:inline-block;float:right;font:12px/43px "";color:#555555;}
+#bottom ul{float:left;margin-left:400px;}

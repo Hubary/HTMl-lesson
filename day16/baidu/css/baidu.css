@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+.margin{
+	width: 984px;
+	margin: 0 auto;
+}
+header{
+	background: #fbfbfc;
+}
+
+header #top{
+	font: 12px/27px "";
+	text-align: right;
+}
+header #top span{
+	margin:0 10px;
+}
+header .margin{
+	height: 105px;
+
+}
+header .margin a.logo{
+	float: left;
+	padding: 18px 14px 0 0;	
+}
+
+#sousuo{
+	float: left;
+	height: 100%;
+	font: 12px/32px "";
+}
+#sousuo ul li{
+	float: left;
+	padding: 0 16px 0 0;
+}
+/*搜索框模块*/
+
+#sousuo table tr td input:nth-child(1){
+	height: 30px;
+	width: 457px;
+}
+#sousuo table tr td input:nth-child(2){
+	height: 32px;
+	width: 98px;
+}
+#sousuo table tr td:nth-child(2) a{
+	margin: 0 10px;
+}
+.search-radios{
+	height: 35px;
+	width: 100%;
+}
+nav{
+	background: #01204f;
+}
+nav ul{
+	display: flex;
+	justify-content: flex-start;
+}
+nav ul li a{
+	display: block;
+	padding: 0 8px;
+	font: 12px/40px "";
+	color:#fff;
+	height: 40px;
+	transition: .5s;
+}
+nav ul li a:hover{
+	background: #cc0000;
+}
+/* body部分*/
+
+body #news .news-l .newsmain{
+	font: 18px/;
+}
+body #news .news-l .newsmain ul{
+}
+
+body #news .news-l .newsmain ul li{
+	display: inline-block;
+	margin: 14px;
+
+}
+body #news .news-l .newsmain ul li a{
+	font:700 18px/34px "微软雅黑";
+}
+body #news .news-l .newsmain ul li .te{
+	
+	font: 12px/34px "楷体";
+}
+
+body #news .news-l .newsmain ul li:hover{
+	border-bottom:2px solid #2f63ba ;	
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

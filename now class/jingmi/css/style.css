@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0 auto;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+
+#top{width:1126px;height:36px;text-align:center;background:#ecf0f1;}
+#top .title-l{float:left;width:300px;font:14px/36px "";color:#757678;}
+#top .title-r{width:200px;float:right;font:14px/36px "";color:#757678;}
+
+.logo{width:1126px;}
+
+#nav{width:1126px;height:50px;background:#3598db;text-align:center;font:16px/50px "";}
+#nav ul{height:50px;width:1080px;}
+#nav ul li{float:left;width:150px;}
+#nav ul li a{color:white;}
+#nav ul li:hover{background:#2a80b9;}
+
+#banner{height:50px;width:1122px;padding:30px 1px 30px 1px;}
+#banner ul{height:50px;width:1030px;border:1px solid black;}
+#banner ul li{float:left;font:12px/50px "";}
+#banner ul .te1{width:83px;}
+#banner ul .te2{width:204px;}
+#banner ul .te3{width:253px;}
+#banner ul .te4{width:273px;}
+#banner ul .te5{width:215px;}
+
+
+#hot{width:1126px;height:398px;border:1px solid black;}
+#hot div{margin:26px 20px 30px 23px;}
+#hot .hl{width:308px;height:350px;float:left;}
+#hot span{font:700 16px/46px "";}
+#hot em{font:12px/46px "";}
+#hot .hc{width:344px;height:350px;float:left;font:14px/40px "";}
+#hot .hl{width:386px;height:350px;float:left;font:12px/40px "";}
+}

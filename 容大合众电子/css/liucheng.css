@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+.layout{width: 980px;margin: 0 auto;}
+html,body{background: #f5f5f5 url(../img/bg.gif) no-repeat right top;}
+header{height:92px;padding-top:15px ;}
+header p:nth-child(2){font: 700 22px/64px "微软雅黑";display: inline-block;}
+header span:nth-child(3){font: 14px/64px "微软雅黑";margin-left: 10px;}
+#head-r{float: right;text-align: right;}
+#head-r p i{margin: 0 15px;}
+#head-r div{margin-top: 24px;border: 1px solid #d5d5d5;padding: 0;border-radius: 3px;}
+
+#head-r input{border: 0;font: 12px/24px "";line-height: 24px;margin: 0;padding: 0;}
+#head-r button{border: 0;background: #ca6434;color: #fff;margin: 0;height:24px;}
+
+nav{background-image:linear-gradient(0deg,#f5f5f5,white);}
+nav ul{border: 1px solid #e3e3e3;height: 35px;margin-bottom: 10px;}
+nav ul li{float: left;width: 118px;}
+nav ul li a{font:600 12px/35px "";text-align: center;width: 100%;display: inline-block;}
+nav ul li a:hover{background: #c7c7c7;}
+
+/*	---------以下各网页变动部分	----------*/
+section .showbox{padding: 20px 0;}
+section .showbox .showleft{width: 210px;float: left;background-image:linear-gradient(0deg,#f5f5f5,#bababa);height: 400px;}
+section .showbox .showleft p{font:600 20px/36px "微软雅黑";padding-left: 16px;background-image:linear-gradient(90deg,#bcbcbc,#fff);}
+section .showbox .showleft ul{padding-left:15px ;}
+section .showbox .showleft ul li{font:600 12px/30px "";}
+section .showbox .showleft ul li:before{content: "▶";color: #2878c9;font-size: 12px;   position: relative;left: -10px;   bottom: 3px;   cursor: pointer;}
+
+section .showbox .showright{float:left;width: 740px;padding-left: 25px;text-align: center;}
+section .showbox .showright p:first-child{font: 12px/40px "微软雅黑";background-image:linear-gradient(90deg,#bcbcbc,#dadada);padding-left: 20px;text-align: left;}
+
+section .showbox .showright p:nth-child(2){font:700 28px/85px "微软雅黑";text-align: left;}
+section .showbox .showright #liucheng p{text-align: center;display: block;height: 60px;padding:0;}
+section .showbox .showright #liucheng span{font: 20px/60px "微软雅黑";color: #FFFFFF;background: #00b0f0;width: 300px;display: block;margin: 0 auto;}
+section .showbox .showright img{margin: 10px auto;}
+section .showbox .showright ul li{float: left;margin-right: 8px;}
+
+
+
+
+/*	---------以上各网页变动部分	----------*/
+#footer{width: 100%;height: 229px;color: #666;}
+#footer .footer-area .footer-top{height: 130px;border-bottom: 1px solid #c2c2c2;position: relative;}
+
+#footer .footer-area .footer-top .footer-top-left {float: left;}
+#footer .footer-area .footer-top .footer-top-left a{font:14px/130px "";margin-right: 30px;}
+#footer .footer-area .footer-top .footer-top-left a:first-child:before{content: "";display: inline-block;width: 14px;height: 23px;background: url(../img/footer-mobile.svg) no-repeat;vertical-align: middle;margin:-3px 10px 0 0;}
+
+#footer .footer-area .footer-top .footer-top-right{position: absolute;right: 0;top: 0;}
+#footer .footer-area .footer-top .footer-top-right a{font:16px/130px "";margin-left: 40px;}
+
+#footer .footer-area .footer-center{margin-top: 20px;}
+#footer .footer-area .footer-center a{font: 12px/21px "";}
+#footer .footer-area .footer-center a:hover{text-decoration: underline;}
+#footer .footer-area  i{margin: 0 26px;}
+
+#footer .footer-area .footer-bottom{margin-top:10px ;position: relative;}
+#footer .footer-area .footer-bottom span{font: 12px/21px "";}
+#footer .footer-area .footer-bottom .b-right{position: absolute;right: 0;}

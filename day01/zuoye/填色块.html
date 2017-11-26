@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>填色块</title>
+<style>
+*{margin:0;padding:0;}
+li{list-style:none;}
+.box{width:800px;border:1px solid #000;margin:100px auto;}
+.box ul{overflow:auto;}
+.box ul li{float:left;width:98px;height:98px;border:1px solid #000;}
+/*请在下方书写背景颜色*/
+.box #a7{background:red;}
+.b{background:yellow;}
+.b2{background:blue;}
+#c{background:gray;}
+.box #d li a:hover{color:green;}
+</style>
+</head>
+<body>
+
+
+<div class="box">
+	<ul>          <!--1-->
+    	<li></li>
+    	<li></li>
+        <li></li>
+    	<li></li>
+        <li></li>
+    	<li></li>
+        <li id="a7"></li>
+    	<li></li>
+    </ul>
+    <ul>          <!--2-->
+    	<li class="b"></li>
+    	<li class="b2"></li>
+        <li class="b"></li>
+    	<li class="b2"></li>
+        <li class="b"></li>
+    	<li class="b2"></li>
+        <li class="b2"></li>
+    	<li class="b"></li>
+    </ul>
+    <ul id="c">          <!--3-->
+    	<li></li>
+    	<li></li>
+        <li></li>
+    	<li></li>
+        <li></li>
+    	<li></li>
+        <li></li>
+    	<li></li>
+    </ul>
+    <ul id="d" >          <!--4-->
+    	<li><a href="#a4"></a></li>
+        <li><a href="#b4"></a></li>
+        <li><a href="#c4"></a></li>
+        <li><a href="#d4"></a></li>
+        <li><a href="#e4"></a></li>
+        <li><a href="#f4"></a></li>
+        <li><a href="#g4"></a></li>
+        <li><a href="#h4"></a></li>
+    	
+    </ul>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+html{font-size: 9.2592vw; }
+
+header{height: 1.32rem;;background: #098fe4;display:flex;width: 100vw;justify-content: center;}
+
+header p{font: .54rem/1.32rem "";color: #fff;}
+
+#banner{background: url(../images/banner.png) no-repeat center; background-size: cover;height: 6.73rem; }
+
+main{overflow: hidden;padding: .25rem .23rem;  }
+main ul{display: flex;justify-content:space-between; flex-wrap: wrap;}
+main li{ width: 5.05rem;border: .01rem solid #e5e5e5;margin:0 .1rem .1rem 0;height: 4.95rem;background: #fff;display: flex;justify-content: center;
+box-sizing: border-box;padding-top: .74rem;text-align: center;}
+main li img{width: 2.74rem;height: 2.72rem;display: block;}
+
+main li span{ font: .6rem/1.49rem "";color: #333;display:block;}

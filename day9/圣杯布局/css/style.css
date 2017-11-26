@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body{height:100%;}
+.left{float:left;width:200px;height:100%;background:#f99;}
+.right{float:right;width:200px;height:100%;background:#9f9;}
+.center{margin:0 200px;background:#99f;}

@@ -1,0 +1,82 @@
+@charset "utf-8";  
+
+/* CSS Document */
+
+html {
+	font-size:calc(100vw/10.8);
+}
+body{
+	background: #efefef;
+}
+header{
+	width: 100%;
+	background: #098fe4;
+	text-align: center;
+	font: .52rem/1.32rem "";
+	color: #fff;
+}
+
+#banner{
+	width: 100%;
+	height: 6.73rem;
+	background: url(../img/banner.png) no-repeat center;
+	background-size:10.8rem 6.73rem;
+}
+#main{
+	
+}
+#main ul{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+#main li{
+	margin-top:.21rem ;
+	padding: .74rem 0 .03rem 0;
+	width: 5.04rem;
+	height: 4.96rem;
+	background: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#main li.tu2{
+	background:#ff7f64 url(../img/tu2.png) no-repeat center;
+}
+#main li.tu3{
+	background:#a48ce0 url(../img/tu3.png) no-repeat center;
+}
+#main li.tu4{
+	background:#00d3bc url(../img/tu4.png) no-repeat center;
+}
+#main ul li a{
+	
+}
+#main li a span{
+	font: .58rem/1.46rem "";	
+}
+#main img{
+	display: block;
+	width: 2.74rem;
+	height: 2.72rem;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

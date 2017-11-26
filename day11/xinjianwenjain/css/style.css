@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+.layout{width:1140px;margin:0 auto;}
+
+#nav{height:103px;}
+#nav .logo{float:left;margin-top:24px;}
+#nav u{font:12px/26px "";display:block;float:left;margin:20px 125px 0 20px;}
+#nav ul{float:left;height:72px;margin-top:31px;}
+#nav ul li{float:left;}
+#nav ul li a{text-align:center;width:88px;height:72px;display:block;font:12px/72px "";background:#fefefe;}
+#nav ul li a:hover{background:#f75a53;border-radius:3px;}
+
+#banner{height:457px;background:url(../images/banner.png) no-repeat center;}
+
+#partners{height:386px;background:#f7f7f7;padding-top:24px;}
+#partners .layout{height:386px;}
+.layout{text-align:center;}
+.layout h3{font:24px/54px "";}
+.layout u{display:block;margin-bottom:28px;}
+
+#partners .layout .logo{height:202px;}
+#partners .layout .logo ul{width:950px;margin:0 auto;}
+#partners .layout .logo ul li{float:left;border:1px solid #ededed;}
+
+
+#our{height:519px;background:#1a1b1f;padding-top:24px;}
+#our .layout h3{display:block;color:#fff;}
+#our .layout u{display:block;color:#fff;}
+#our ul{margin-top:83px;}
+#our ul li{margin-right:58px;padding:80px 72px 0 72px;position:relative;float:left;width:196px;height:180px;background:#d1d1d1;}
+#our ul li.te{margin-right:0;}
+#our ul li img{position:absolute;top:-66px;left:106px;}
+#our ul li h4{color:#F00;font:16px/54px "";}
+#our ul li p{font:12px/32px "";}
+
+
+#case{height:809px;padding-top:24px;}
+#case .layout ul{height:40px;width:800px;margin:0 auto;}
+#case .layout ul li{float:left;}
+#case .layout ul li a{text-align:center;display:block;width:200px;height:40px;background:#666666;font:12px/40px "";color:#FFF;}
+#case .layout ul li a:hover{background:#f75a53;}
+
+#case .case-tu{width:1140px;margin:0 auto;overflow:hidden;}
+#case .case-tu ul{width:1170px;margin-top:25px;}
+#case .case-tu ul li{width:360px;float:left;margin:0 30px 30px 0; }
+
+#news{height:350px;background:#f2f2f2;}
+#news .layout ul{margin-top:15px;}
+#news .layout ul li{width:343px;float:left;font:12px/30px "";color:#888888;margin-right:30px;}
+#news .layout ul li h3{font:700 16px/62px "";text-align:left;color:#000;}
+#news .layout ul li p{float:left;}
+#news .layout ul li span{float:right;}
+#news .layout ul li i{display:block;width:117px;height:32px;float:left;font:12px/32px "";color:#fff;background:#f75a53;border-radius:3px;}
+
+
+
+#footer{height:138px;background:#363636;}
+
+
+
+
+
+
+

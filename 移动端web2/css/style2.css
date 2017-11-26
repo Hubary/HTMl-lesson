@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+html{font-size: 9.2592vw; }
+
+header{height: 1.32rem;;background: #098fe4;display:flex;width: 100vw;justify-content: center;position: relative;}
+main{padding: 0px .4rem;}
+header p{font: .54rem/1.32rem "";color: #fff;}
+header a{display: block;font-size:.78rem;color: #fff;position: absolute;left: .25rem;top: .27rem; }
+main fieldset{ border: .02rem solid #dcdedd; border-radius: .1rem;width: 8.85rem;font: .36rem/1.06rem "";color: #9c9c9c;padding: 0 .55rem;margin:0 0 .3rem ;}
+main fieldset:nth-of-type(1){margin-top: .78rem;}
+main input.s1{ display: inline-block;border: 0;}
+main select{height: .8rem;width: 3.82rem;text-align: center;color: #9c9c9c;font: .36rem/.8rem "";margin-right: .35rem;}
+main select:nth-of-type(2){margin: 0;}
+main span{;font: .36rem/1.06rem "";color: #9c9c9c;}
+main textarea{ width: 8.05rem;height: 2.86rem;border: .02rem solid #dcdedd; border-radius: .1rem;vertical-align: top;margin-top: .35rem}
+#xxt{display: none; }
+main label{display: inline-block;width:1.58rem;height: 1.58rem;border: .02rem solid #dcdedd;background: url(../images/t2.png) no-repeat center;
+background-size: .74rem .74rem;vertical-align: top; margin-top: .35rem ;border-radius: .1rem;}
+main .bt{display: block;width: 10rem;border-radius: .1rem;background: #098fe4;border: 0;margin-top: 1.21rem;}

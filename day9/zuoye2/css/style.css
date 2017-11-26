@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+.margin{width:980px;margin:0 auto;}
+body{background:url(../images/bg.png);}
+
+#top{height:28px;font:12px/28px "";color:#333333;background:url(../images/top.png);}
+#top img{vertical-align:middle;}
+#top .top-l{float:left;}
+#top .top-r{float:right;}
+#top .te{color:#ed1c24;}
+
+#nav{height:70px;}
+#nav .logo{margin:7px 0 0 3px;}
+#nav ul{float:right;margin:18px 7px 11px 0;}
+#nav ul li{float:right;font:14px/40px "";text-align:center;}
+#nav ul li a{display:block;width:107px;height:40px;background:url(../images/nav1.png) no-repeat;}
+#nav ul li:hover a{background:url(../images/nav2.png) no-repeat;}
+
+
+#login{width:979px;height:272px;background:#f8bf0a;}
+#login .log-l{float:left;margin-top:8px;margin-left:8px;width:272px;height:251px;background:#ffe589;}
+
+#login .log-l .log-te p{font:700 12px/46px "";text-indent:15px;width:258px;height:46px;background:url(../images/login.png) no-repeat;}
+#login .log-l input{border:none;}
+
+#login .log-l li{margin:16px 6px 0 6px;}
+#login  .log-1 img{vertical-align:middle;margin-right:50px;}
+
+#login  .log-r{float:left;margin-top:8px;margin-left:8px;} 
+
+
+#content{height:457px;}
+#content a{color:#fa7805;}
+#content .con-l{float:left;width:281px;height:100%;}
+#content .con-l div{background:#FFF;text-indent:27px;margin-top:10px;border:1px solid #cccccc;}
+
+#content .con-l .con-l-t{height:218px;} 
+#content .con-l  ul .te{margin-top:6px;}
+#content .con-l  li{font:12px/25px "";height:25px;}
+
+#content .con-l .con-l-t p{background:url(../images/con-l.png) no-repeat;}
+
+#content .con-l .con-l-b{margin-top:16px;height:199px;border:1px solid #cccccc;} 
+#content .con-l .con-l-b p{font:700 12px/31px "";height:31px;background:url(../images/con-l-b.png) no-repeat;}
+
+
+
+#content .con-r{float:left;width:699px;height:100%;}
+#content .con-r .con-r-t{margin:11px 0 0 11px;height:103px;border:1px solid #cccccc;background:#fff4ca;}
+#content .con-r .con-r-t li{background:#FFF;padding:5px 0 5px 10px;font:12px/20px "";float:left;margin:6px 9px;width:194px;height:78px;border:1px solid #ffca00;}
+#content .con-r .con-r-t a{margin:0 0 0 5px;}
+#content .con-r .con-r-t .conimg{height:78px;display:block;float:right;}
+
+#content .con-r .con-r-l{margin:11px 0 0 11px;float:left;width:424px;height:321px;border:1px solid #cccccc;}
+#content .con-r .con-r-l p{font:700 12px/31px "";width:100%;height:31px;background:url(../images/con-rb.png) repeat-x;}
+#content .con-r .con-r-l p img{display:inline-block;padding:0 8px 0 5px;}
+
+#content .con-r .con-r-l ul{width:424px;height:291px;}
+#content .con-r .con-r-l ul li{float:left;padding:6px 0 0 3px;font:12px/25px "";width:204px;height:134px;border:1px solid #fce287;}
+#content .con-r .con-r-l ul li .s-r{display:inline-block;text-indent:66px;}
+#content .con-r .con-r-l ul li img.te2{height:83px;vertical-align:middle;}
+
+#content .con-r .con-r-r{background:#FFF;margin:11px 0 0 11px;float:left;width:249px;height:321px;border:1px solid #cccccc;}
+#content .con-r .con-r-r p{text-indent:10px;font:700 12px/31px "";width:100%;height:31px;background:url(../images/con-rbr.png) repeat-x;}		
+#content .con-r .con-r-r ul{font:12px/32px "";}
+#content .con-r .con-r-r ul li{padding:0 6px;height:33px;color:#06F;}
+#content .con-r .con-r-r ul li p{margin-top:6px;float:left;width:16px;height:18px;display:inline-block;background:url(../images/touxiang.png) no-repeat;}
+
+#content .con-r .con-r-r ul li .i2{background-position:0 -32px;}
+#content .con-r .con-r-r ul li .i3{background-position:0 -64px;}
+#content .con-r .con-r-r ul li .i4{background-position:0 -96px;}
+#content .con-r .con-r-r ul li .i5{background-position:0 -128px;}
+#content .con-r .con-r-r ul li .i6{background-position:0 -160px;}
+#content .con-r .con-r-r ul li .i7{background-position:0 -192px;}
+#content .con-r .con-r-r ul li .i8{background-position:0 -224px;}
+#content .con-r .con-r-r ul li .i9{background-position:0 -256px;}
+
+
+#content .con-r .con-r-r ul li a{float:left;}
+#content .con-r .con-r-r ul li span{float:right;}
+
+
+#footer{height:88px;font:12px/24px "";background:#FFF;padding:0 10px;width:960px;}
+#footer p{padding-left:10px;margin-left:-10px;width:970px;font:700 12px/31px "";height:31px;background:url(../images/con-rb.png) repeat-x;}
+
+#bottom{height:142px;text-align:center;font:12px/24px "";}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	

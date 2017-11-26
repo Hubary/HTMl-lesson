@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			div{
+				width: 50px;
+				height: 50px;
+				transition: .5s;
+				background-color:#9999FF;
+				margin:50px auto;
+			}
+			#tr:hover{
+				background:#99FF99;				
+				transform:translate(20px,50px);
+			}
+			#skew:hover{
+				background:#99FF99;				
+				transform:skew(30deg,-20deg) ;
+			}
+			#scale:hover{
+				background:#99FF99;				
+				transform:scale(2,1) ;
+			}	
+			#pic{
+				position: relative;
+				overflow: hidden;
+				width: 470px;
+				height: 353px;
+				box-shadow:0 0 5px #9999FF;				
+			}
+			#pic img{
+				position: absolute;
+				left: 0;
+				top: 0;
+				transform-origin:0 0 ;
+				transition: 1s;
+				
+			}
+			#pic img:nth-child(2){
+				transform: rotate(180deg);
+				
+			}
+			#pic:hover img:nth-child(1){
+				transform: rotate(180deg);
+			}
+			#pic:hover img:nth-child(2){
+				transform: rotate(360deg);
+			}
+			#pic2{
+				width:470px;
+				height: 353px;
+				box-shadow:0 0 5px #9999FF;	
+				overflow: hidden;	
+				position: relative;		
+			}
+			#pic2 img{
+				display: block;
+				width: 470px;
+				height: 353px;
+				transition: 1s;					
+			}
+			#pic2:hover img{
+				transform: scale(1.5,1.5);			
+			}
+			#pic2 p{
+				display: block;
+				width: 100%;		
+				font: 16px/32px "";
+				box-sizing: border-box;
+				background: rgba(0,0,0,.5);
+				position: absolute;
+				bottom: -50px;
+				left: 0;
+				transition: .5s;
+			}
+			#pic2:hover p{
+				bottom: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="tr">	
+			<span>哈哈</span>
+		</div>
+		<div id="skew">
+			<span>哈哈</span>
+		</div>
+		<div id="scale">
+			<span>哈哈 </span>
+		</div>
+		<div id="pic">
+			<img src="img/121.png" />
+			<img src="img/wlk2.jpg" />
+			<p>还好还好关晓彤</p>
+		</div>
+		<div id="pic2">
+			<img src="img/121.png" />
+			<p>还好还好关晓彤</p>
+		</div>
+	</body>
+</html>

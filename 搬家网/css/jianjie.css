@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+.margin{width:980px;margin:0 auto;}
+
+header{height:110px;background: url(../img/header.png) repeat-x left;}
+
+header .logo{float:left;margin: 17px 0 0 0px;}
+header .banjia{float:left;margin: 17px 0 0 0px;}
+nav { height: 40px ;background: #23dd13;}
+nav ul{display: flex;}
+nav ul li a:hover{background: #2274D9;}
+nav ul li a{ font:900 14px/40px "";color: #fff;padding:0 24px;display: block;}
+#banner {background: url(../img/banner.png) no-repeat center;height: 239px;}
+#main {padding: 15px  0 20px 0;display: flex;justify-content: space-between;}
+#main .main-l{width: 218px;height:490px;background: url(../img/shu.png) repeat-y right;padding-right: 5px;box-sizing: border-box;}
+#main .main-l h2{ height: 34px;background: url(../img/bg8.png) repeat-x left;font:900 12px/35px ""; color: #fff;padding-left: 15px;border-bottom: 1px solid #dddddd;}
+#main .main-l p{padding-bottom: 22px;background: url(../img/bg9.png) repeat-y top;}
+#main .main-l p span{display: block;}
+#main .main-l .search{background: url(../img/bg9.png) repeat-y top;padding: 10px; }
+#main .main-l .search input.txt {height: 23px;width: 150px;border: 1px solid #34ab1b;float: left}
+#main .main-l .search input.sub{  background:#34ab1b;border: 0;height: 25px;width: 30px;float: left;}
+#main .main-l ul li{ font: 12px/24px "";}
+#main .main-r{width: 744px; }
+#main .main-r>p:nth-of-type(1){height: 31px ;font: 12px/31px "" ;background: url(../img/m1.png) repeat-x left;padding-left: 8px;display: block;text-align: left;}
+#main .main-r>p:nth-of-type(2){text-align: left;;font: 12px/25px ""}
+
+#main .main-r ul li{ padding: 10px; box-sizing: border-box;margin-bottom: 10px;}
+
+
+#main .main-r {text-align: center;border: 1px solid #ddd;}
+#main .main-r>a{display:inline-block;height: 21px;padding: 0 5px;border: 1px solid #ddd;font: 12px/21px "";}
+#main .main-r ul{ padding: 30px;text-align: left;}
+#main .main-r ul li p{height: 20px;font: 12px/20px "";}
+#guanyu { background:url(../img/bg6.png) repeat-x left;height: 30px; text-align: center;font: 12px/30px "";color: #fff;}
+#guanyu  span{ margin:  0 14px;}
+#guanyu a{color: #fff;}
+footer{ height: 152px; background: url( ../img/bg7.png) repeat-x left;font: 10px/22px "";color: #191919;padding: 12px 0;text-align: center;box-sizing: border-box;}
+footer p{font: 10px/22px "";color: #191919;}
+.qq{ position: fixed;right: 21px;  top: 150px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
